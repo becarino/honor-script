@@ -1,5 +1,5 @@
 #!/bin/sh
-LINE='[ $((RANDOM % 1000)) -eq 0 ] && echo "With great joy, comes great honor"'
+LINE='[ $((RANDOM % 500)) -eq 0 ] && echo "With great joy, comes great honor"'
 
 case "$(basename "$SHELL")" in
   zsh)  RC="$HOME/.zshrc" ;;
